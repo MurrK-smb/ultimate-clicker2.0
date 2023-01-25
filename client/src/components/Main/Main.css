@@ -1,19 +1,18 @@
-.game {
+.main {
   display: flex;
   justify-content: center;
-  height: 100%;
   z-index: 0;
 }
 
-.game__button {
-  margin: auto 0;
+.main__button {
+  margin: 220px 0 auto;
   padding: 0;
   border: none;
   height: fit-content;
   background-color: transparent;
 }
 
-.game__counter {
+.main__counter {
   margin: 0;
   padding: 0;
   text-align: center;
