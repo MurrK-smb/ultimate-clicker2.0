@@ -1,10 +1,10 @@
-.main {
+.game {
   display: flex;
   justify-content: center;
   z-index: 0;
 }
 
-.main__button {
+.game__button {
   margin: 220px 0 auto;
   padding: 0;
   border: none;
@@ -12,7 +12,7 @@
   background-color: transparent;
 }
 
-.main__counter {
+.game__counter {
   margin: 0;
   padding: 0;
   text-align: center;
