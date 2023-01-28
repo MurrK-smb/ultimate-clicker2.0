@@ -1,5 +1,5 @@
 import "./Login.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, NavLink } from "react-router-dom";
 
 function Login() {
   const navigate = useNavigate();
@@ -29,6 +29,12 @@ function Login() {
               <span className="login__form-submit-text">Login</span>
             </button>
           </form>
+          <p className="login__sign-up">
+            Don't have an account? Sign up{" "}
+            <NavLink className="login__sign-up-link" to="/signup">
+              here
+            </NavLink>
+          </p>
         </div>
       </div>
     </>
