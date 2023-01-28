@@ -10,17 +10,18 @@
   font-size: 75px;
 }
 
-.home__nav-link {
+.home__play {
   margin-top: 40px;
-  padding: 10px;
+  padding: 8px;
   font-size: 35px;
-  text-decoration: none;
-  color: black;
   border: solid white 7px;
   border-radius: 8px;
+  background-color: transparent;
   transition: 0.15s linear;
+  font-weight: 550;
 }
 
-.home__nav-link:hover {
+.home__play:hover {
   border-color: black;
+  cursor: pointer;
 }
