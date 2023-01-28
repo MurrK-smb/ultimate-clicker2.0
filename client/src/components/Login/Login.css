@@ -17,6 +17,20 @@
   border-radius: 15px;
 }
 
+.login__home-button {
+  position: relative;
+  top: -100px;
+  height: 35px;
+  width: 35px;
+  background-image: url("../../images/home-icon.png");
+  background-size: 100%;
+  border: none;
+}
+
+.login__home-button:hover {
+  cursor: pointer;
+}
+
 .login__form-title {
   font-size: 30px;
 }
@@ -36,6 +50,7 @@
   height: 45px;
   width: 100%;
   padding-left: 10px;
+  color: white;
   background-color: #454545;
   border: none;
   border-radius: 5px;
@@ -46,7 +61,7 @@
 }
 
 .login__form-input:focus {
-  background-color: #454545;
+  border: 1px solid rgb(184, 184, 184);
 }
 
 .login__form-input:last-of-type {
@@ -57,4 +72,15 @@
   margin-top: 25px;
   height: 35px;
   width: 40%;
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 5px;
+}
+
+.login__form-submit {
+  cursor: pointer;
+}
+
+.login__form-submit-text {
+  font-weight: 700;
 }
