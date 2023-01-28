@@ -1,4 +1,4 @@
-import "./Login.css";
+import "../Login/Login.css";
 import { useNavigate, NavLink } from "react-router-dom";
 
 function Login() {
@@ -13,7 +13,7 @@ function Login() {
             type="button"
             onClick={() => navigate("/")}
           ></button>
-          <h2 className="login__form-title">Welcome Back!</h2>
+          <h2 className="login__form-title">Welcome!</h2>
           <form className="login__form">
             <input
               className="login__form-input"
@@ -30,8 +30,8 @@ function Login() {
             </button>
           </form>
           <p className="login__sign-up">
-            Don't have an account? Sign up{" "}
-            <NavLink className="login__sign-up-link" to="/register">
+            Already have an account? Login{" "}
+            <NavLink className="login__sign-up-link" to="/login">
               here
             </NavLink>
           </p>
