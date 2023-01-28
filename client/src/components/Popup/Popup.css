@@ -1,0 +1,101 @@
+.popup {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__form-container {
+  height: fit-content;
+  padding: 50px 0;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.popup__home-button {
+  position: relative;
+  margin-bottom: -40px;
+  top: -100px;
+  height: 40px;
+  width: 40px;
+  background-image: url("../../images/home-icon.png");
+  background-size: 100%;
+  border: 5px solid white;
+  border-radius: 10px;
+  transition: 0.15s linear;
+}
+
+.popup__home-button:hover {
+  cursor: pointer;
+  border-color: black;
+}
+
+.popup__form-title {
+  font-size: 30px;
+}
+
+.popup__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 70%;
+  margin-top: 50px;
+}
+
+.popup__form-input {
+  height: 45px;
+  width: 100%;
+  padding-left: 10px;
+  color: white;
+  background-color: #454545;
+  border: none;
+  border-radius: 5px;
+}
+
+.popup__form-input textarea {
+  background: #454545;
+}
+
+.popup__form-input:focus {
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.popup__form-input:last-of-type {
+  margin-top: 10px;
+}
+
+.popup__form-submit {
+  margin-top: 25px;
+  height: 35px;
+  width: 40%;
+  background-color: rgb(141, 139, 139);
+  border: none;
+  border-radius: 5px;
+  transition: 0.1s linear;
+}
+
+.popup__form-submit:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.popup__form-submit-text {
+  font-weight: 700;
+}
+
+.popup__sign-up {
+  margin-top: 35px;
+  color: #dad8d8;
+}
+
+.popup__sign-up-link {
+  color: #666565;
+}
