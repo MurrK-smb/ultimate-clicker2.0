@@ -7,6 +7,7 @@ function Register() {
     submit: "Sign Up",
     text: "Already have an account? Login ",
     pathname: "/login",
+    newUser: true,
   };
 
   return <Popup data={data} />;

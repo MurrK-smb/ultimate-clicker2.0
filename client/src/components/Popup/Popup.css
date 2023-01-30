@@ -53,6 +53,7 @@
 .popup__form-input {
   height: 45px;
   width: 100%;
+  margin-top: 10px;
   padding-left: 10px;
   color: white;
   background-color: #454545;
@@ -68,8 +69,8 @@
   border: 1px solid rgb(184, 184, 184);
 }
 
-.popup__form-input:last-of-type {
-  margin-top: 10px;
+.popup__form-input:first-of-type {
+  margin-top: 0;
 }
 
 .popup__form-submit {
@@ -91,11 +92,19 @@
   font-weight: 700;
 }
 
-.popup__sign-up {
+.popup__route {
   margin-top: 35px;
   color: #dad8d8;
 }
 
-.popup__sign-up-link {
+.popup__route-link {
   color: #666565;
+}
+
+.error-message {
+  font-size: 10px;
+}
+
+.hidden {
+  display: none;
 }
