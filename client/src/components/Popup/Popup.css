@@ -80,10 +80,13 @@
   background-color: rgb(141, 139, 139);
   border: none;
   border-radius: 5px;
+}
+
+.popup__form-submit_a {
   transition: 0.1s linear;
 }
 
-.popup__form-submit:hover {
+.popup__form-submit_a:hover {
   cursor: pointer;
   color: white;
 }
