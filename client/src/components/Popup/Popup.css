@@ -59,6 +59,7 @@
   background-color: #454545;
   border: none;
   border-radius: 5px;
+  font-size: 16px;
 }
 
 .popup__form-input textarea {
@@ -97,6 +98,7 @@
 
 .popup__route {
   margin-top: 35px;
+  font-size: 14px;
   color: #dad8d8;
 }
 
@@ -105,7 +107,7 @@
 }
 
 .error-message {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .hidden {
