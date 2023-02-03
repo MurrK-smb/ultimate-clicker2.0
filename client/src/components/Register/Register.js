@@ -54,9 +54,13 @@ function Register() {
     user: user,
     password: password,
     confirm: confirm,
-    validName: validName,
-    validPassword: validPassword,
-    validConfirm: validConfirm,
+    validName,
+    validPassword,
+    validConfirm,
+    submitDisabled:
+      !validName || !validPassword || !validConfirm ? true : false,
+    submitActive:
+      validName && validPassword && validConfirm && "popup__form-submit_a",
   };
 
   return <Popup data={data} />;

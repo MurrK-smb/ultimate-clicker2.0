@@ -86,20 +86,9 @@ function Popup(props) {
               </>
             )}
             <button
-              className={`popup__form-submit ${
-                props.data.validName &&
-                props.data.validPassword &&
-                props.data.validConfirm &&
-                "popup__form-submit_a"
-              }`}
+              className={`popup__form-submit ${props.data.submitActive}`}
               type="submit"
-              disabled={
-                !props.data.validName ||
-                !props.data.validPassword ||
-                !props.data.validConfirm
-                  ? true
-                  : false
-              }
+              disabled={props.data.submitDisabled}
             >
               <span className="popup__form-submit-text">
                 {props.data.submit}
