@@ -10,10 +10,6 @@ function Popup(props) {
     userRef.current.focus();
   }, []);
 
-  async function handleSubmit(e) {
-    e.preventDefault();
-  }
-
   return (
     <>
       <div className="popup">
@@ -24,7 +20,7 @@ function Popup(props) {
             onClick={() => navigate("/")}
           ></button>
           <h2 className="popup__form-title">{props.data.title}</h2>
-          <form className="popup__form" onSubmit={handleSubmit}>
+          <form className="popup__form">
             <input
               className="popup__form-input"
               type="text"

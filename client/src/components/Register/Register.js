@@ -36,6 +36,12 @@ function Register() {
   //   setErrorMessage("");
   // }, [user, password, confirm]);
 
+  // async function handleSubmit(e) {
+  //   e.preventDefault();
+
+  //   //backend authentication
+  // }
+
   const data = {
     title: "Welcome!",
     submit: "Sign Up",
